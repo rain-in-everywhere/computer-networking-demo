@@ -2,12 +2,12 @@
   "name": "computer-networking-demo",
   "version": "1.0.0",
   "private": true,
-  "description": "计算机网络课程大作业 — 基于 Cloudflare Pages + Functions 的 Serverless 网站",
+  "description": "计算机网络课程大作业 — 基于 Cloudflare Workers 的 Serverless 网站",
   "scripts": {
-    "dev": "wrangler pages dev .",
-    "deploy": "wrangler pages deploy ."
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
-    "wrangler": "^3.114.0"
+    "wrangler": "^4.105.0"
   }
 }
