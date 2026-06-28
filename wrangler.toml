@@ -1,0 +1,11 @@
+# Cloudflare Pages 配置文件（使用 Functions 作为 Serverless API）
+# 项目：计算机网络课程大作业
+
+name = "computer-networking-demo"
+compatibility_date = "2026-06-28"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "."
+
+[vars]
+SITE_NAME = "计网学习笔记"
+SITE_AUTHOR = "Student"
